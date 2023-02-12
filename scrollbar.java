@@ -1,9 +1,9 @@
 import javax.swing.*;  
-class jscrollbar
+class scrollbar
 {  
-  jscrollbar
+  scrollbar
   {  
-    JFrame jf= new JFrame("Scrollbar Example");  
+    JFrame jf= new JFrame("Scrollbar");  
     JScrollBar s=new JScrollBar();  
     s.setBounds(100,100, 50,100);  
     jf.add(s);  
@@ -13,6 +13,6 @@ class jscrollbar
   }  
   public static void main(String args[])  
   {  
-     new jscrollbar();
+     new scrollbar();
   }
 }  
